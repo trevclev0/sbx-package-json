@@ -1,4 +1,10 @@
 {
   "name": "sbx-package-json",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "postinstall": "husky install"
+  }
 }
