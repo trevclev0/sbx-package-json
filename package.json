@@ -1,6 +1,7 @@
 {
   "name": "sbx-package-json",
   "packageManager": "yarn@4.0.2",
+  "version": "0.0.1",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
