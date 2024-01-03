@@ -23,16 +23,17 @@ jobs:
           fetch-depth: 0
           persist-credentials: false # <--- this
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: oven-sh/setup-bun@v1
         with:
-          cache: yarn
+          cache: bun
           node-version: "lts/*"
+          bun-version: 1.0.11 # or "latest", "canary", <sha>
       - name: Install dependencies
-        run: yarn install
+        run: bun install
       - name: Build Assets
-        run: yarn build
+        run: bun run build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: HUSKY=0 yarn semantic-release
+        run: HUSKY=0 bun semantic-release

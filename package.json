@@ -2,6 +2,8 @@
   "name": "sbx-package-json",
   "packageManager": "yarn@4.0.2",
   "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
@@ -22,7 +24,8 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "build": "echo 'no build configured as of yet…'",
+    "build": "bun build ./index.ts --outdir ./out --minify",
+    "build:watch": "bun run build --watch",
     "postinstall": "husky install"
   }
 }
