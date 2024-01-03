@@ -20,6 +20,7 @@
     ["@semantic-release/github",
       {
         "assets": [
+          { "path": "package.json", "label": "Dependencies Declaration" },
           { "path": "dist/index.min.css*", "label": "CSS distribution" },
           { "path": "dist/index.min.js*", "label": "JS distribution" }
         ]
@@ -27,6 +28,7 @@
     ],
     ["@semantic-release/npm",
       {
+        "tarballDir": "dist",
         "pkgRoot": "dist"
       }
     ],
