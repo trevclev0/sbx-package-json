@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/trevclev0/sbx-package-json/compare/v1.0.0...v1.1.0) (2024-01-03)
+
+
+### Features
+
+* **build:** add a build process ([48230de](https://github.com/trevclev0/sbx-package-json/commit/48230deb891c38b358eabce3db249a36c5c4bd3e))
+* **build:** add bun to run build ([ea866d7](https://github.com/trevclev0/sbx-package-json/commit/ea866d7784689df81dd55be1d1b8cdd46085ac4f))
+
 # 1.0.0 (2024-01-03)
 
 
