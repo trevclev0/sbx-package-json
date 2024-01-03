@@ -24,7 +24,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "build": "bun build index.ts --outdir dist --minify --sourcemap=external --entry-naming '[dir]/[name].min.[ext]'",
+    "build": "bun build index.ts --outdir dist --minify --sourcemap=external --entry-naming=[dir]/[name].min.[ext]",
     "build:watch": "bun run build --watch",
     "postinstall": "husky install"
   }

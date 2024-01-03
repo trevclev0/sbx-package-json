@@ -1,4 +1,4 @@
-import Developer from "./src/Developr";
+import Developer from "./src/Developer";
 
 const dev = new Developer("Trevor", "male");
 
