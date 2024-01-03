@@ -1,5 +1,5 @@
-import Developer from './src/Developer';
+import Developer from "./src/Developr";
 
-const dev = new Developer('Trevor', 'male');
+const dev = new Developer("Trevor", "male");
 
 console.log(`Hello developer ${dev.getName()} via Bun!`);
