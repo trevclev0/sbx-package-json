@@ -1,7 +1,7 @@
 {
   "name": "sbx-package-json",
   "packageManager": "yarn@4.0.2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "module": "index.ts",
   "type": "module",
   "devDependencies": {

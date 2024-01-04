@@ -1,3 +1,14 @@
+## [1.1.1](https://github.com/trevclev0/sbx-package-json/compare/v1.1.0...v1.1.1) (2024-01-04)
+
+
+### Bug Fixes
+
+* **gh-actions-release:** fix the build ([616aa43](https://github.com/trevclev0/sbx-package-json/commit/616aa43f736fd657342d513a2b6dfd6a74941eeb))
+* **gh-release-action:** fixing warning from GH actions ([631caa7](https://github.com/trevclev0/sbx-package-json/commit/631caa77ee5bbdf0399009609b85b4bdf42ac2ac))
+* **semantic-release:** add package.json to asset list for GitHub ([3f4690e](https://github.com/trevclev0/sbx-package-json/commit/3f4690ef00612a3f2d9cddfca3e48b08363cb569))
+* **semantic-release:** remove pkgRoot directive from @semantic-release/npm config ([7691374](https://github.com/trevclev0/sbx-package-json/commit/7691374f84c759be0853b1d1fd8960badf3ee570))
+* **semantic-release:** remove tarball configuration ([18382a6](https://github.com/trevclev0/sbx-package-json/commit/18382a603fbe2411ea694d1b2e2a216dc7670fde))
+
 # [1.1.0](https://github.com/trevclev0/sbx-package-json/compare/v1.0.0...v1.1.0) (2024-01-03)
 
 
