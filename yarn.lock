@@ -2196,7 +2196,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-angular@npm:^8.0.0, conventional-changelog-angular@npm:^8.2.0":
+"conventional-changelog-angular@npm:^8.0.0, conventional-changelog-angular@npm:^8.2.0, conventional-changelog-angular@npm:^8.3.1":
   version: 8.3.1
   resolution: "conventional-changelog-angular@npm:8.3.1"
   dependencies:
@@ -2205,7 +2205,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^9.2.0":
+"conventional-changelog-conventionalcommits@npm:^9.2.0, conventional-changelog-conventionalcommits@npm:^9.3.1":
   version: 9.3.1
   resolution: "conventional-changelog-conventionalcommits@npm:9.3.1"
   dependencies:
@@ -5670,6 +5670,8 @@ __metadata:
     "@vitest/ui": "npm:^4.1.2"
     commitizen: "npm:^4.3.1"
     commitlint-config-gitmoji: "npm:^2.3.1"
+    conventional-changelog-angular: "npm:^8.3.1"
+    conventional-changelog-conventionalcommits: "npm:^9.3.1"
     cz-conventional-changelog: "npm:^3.3.0"
     cz-emoji-conventional: "npm:^1.2.1"
     globals: "npm:^17.4.0"
